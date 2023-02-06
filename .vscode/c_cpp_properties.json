@@ -1,8 +1,8 @@
 {
     "env": {
         "commonIncludePaths": [
-            "${workspaceFolder}/TemplateProject/.",
-            "${workspaceFolder}/TemplateProject/**",
+            "${workspaceFolder}/TestThree/.",
+            "${workspaceFolder}/TestThree/**",
             "${workspaceFolder}/iPlug2/WDL/**",
             "${workspaceFolder}/iPlug2/IPlug/**",
             "${workspaceFolder}/iPlug2/IGraphics/**",
@@ -31,8 +31,7 @@
                 "OS_MAC",
                 "IGRAPHICS_METAL"
             ],
-            "macFrameworkPath": [
-            ],
+            "macFrameworkPath": [],
             "intelliSenseMode": "clang-x64",
             "compilerPath": "/usr/bin/clang",
             "cStandard": "c11",
@@ -67,7 +66,8 @@
             "intelliSenseMode": "clang-x64",
             "compilerPath": "/emsdk/upstream/bin/clang",
             "cStandard": "c11",
-            "cppStandard": "c++17"
+            "cppStandard": "c++17",
+            "configurationProvider": "ms-vscode.makefile-tools"
         }
     ],
     "version": 4
