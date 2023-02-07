@@ -92,7 +92,7 @@ WAM_EXPORTS = "[\
   '_wam_onmessageN', '_wam_onmessageS', '_wam_onmessageA', '_wam_onpatch' \
   ]"
 
-WEB_EXPORTS = "['_malloc', '_free', '_main', '_iplug_fsready', '_iplug_syncfs', '_malloc']"
+WEB_EXPORTS = "['_malloc', '_free', '_main', '_iplug_fsready', '_iplug_syncfs']"
 
 # LDFLAGS for both WAM and WEB targets
 LDFLAGS = -s ALLOW_MEMORY_GROWTH=1 --bind
